@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         String priceMessage = "Total: $" + price;
         priceMessage = priceMessage + " Thank you!";
         displayMessage(priceMessage);
+        int
     }
 
     /**
