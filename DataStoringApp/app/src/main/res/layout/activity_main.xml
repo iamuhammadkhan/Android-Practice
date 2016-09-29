@@ -95,4 +95,5 @@
         android:background="#FFCC00"
         android:onClick="submitInfo"
         android:layout_marginLeft="16dp" />
+
 </LinearLayout>
