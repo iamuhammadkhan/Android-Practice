@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitInfo(View view)
     {
-        Toast.makeText(this, "Data Submitted", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, " Submitted ", Toast.LENGTH_SHORT).show();
     }
 
 }

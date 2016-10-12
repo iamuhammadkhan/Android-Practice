@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="23sp"
-        android:text="Student Data Form Submission"
+        android:text="@string/title"
         android:textColor="#FFFFFF"
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
@@ -23,8 +23,8 @@
     <EditText
         android:id="@+id/firstName"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:hint="First Name"
+        android:layout_height="30dp"
+        android:hint="@string/first_name"
         android:inputType="textPersonName"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
@@ -34,8 +34,8 @@
     <EditText
         android:id="@+id/lastName"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:hint="Last Name"
+        android:layout_height="30dp"
+        android:hint="@string/last_name"
         android:inputType="textPersonName"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
@@ -44,9 +44,9 @@
 
     <EditText
         android:id="@+id/age"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:hint="Age"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:hint="@string/age"
         android:inputType="number"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
@@ -55,9 +55,9 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:hint="Email"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
@@ -66,9 +66,9 @@
 
     <EditText
         android:id="@+id/number"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:hint="Number"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:hint="@string/number"
         android:inputType="phone"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
@@ -77,9 +77,9 @@
 
     <EditText
         android:id="@+id/courseName"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:hint="Course Name"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:hint="@string/course"
         android:inputType="text"
         android:layout_marginBottom="30dp"
         android:layout_marginRight="16dp"
@@ -90,7 +90,7 @@
         android:id="@+id/button"
         android:layout_height="wrap_content"
         android:layout_width="150dp"
-        android:text="Submit"
+        android:text="@string/button1"
         android:textSize="18sp"
         android:background="#FFCC00"
         android:onClick="submitInfo"
